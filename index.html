@@ -23,14 +23,13 @@
     <!-- HEADER -->
     <header id="header" class="">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row align-items-center">
                 <!-- COL LEFT Logo  -->
                 <div class="col-2">
                     <div class="header_left">
                         <!-- Mobile-Logo -->
                         <div class="mobile_logo d-lg-none">
                             <img src="./img/mobile-logo.png" alt="">
-
                         </div>
                         <!-- Scritta Boolean -->
                         <div class="dekstop_logo d-none d-md-none d-lg-block">
@@ -42,27 +41,51 @@
 
                 <!-- COL CENTER -->
                 <div class="col-8">
-                    <div class="header_center">
-
+                    <div class="header_center ">
+                        <div class="input-group ">
+                            <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="search" class="form-control" placeholder="Prova a cercare" >
+                        </div>
                     </div>
-
                 </div>
                 <!-- FINE COL CENTER -->
                 
                 <!-- COL RIGHT -->
                 <div class="col-2">
-                    <div class="header_right">
-                        <!-- Loghi -->
-                        <div class=>
-                            <!-- 3 Loghi -->
-                            <div>
-        
-                            </div>
-                            <!-- Campanella -->
-                            <div>
-        
-                            </div>
+                    <!-- Icone pulsati -->
+                    <div class="header_right justify-content-end">
+                        
+                        <!-- 3 Icone-->
+                        <div class="icons_header d-none d-md-none d-lg-block">
+                            <!-- list -->
+                            <button class="btn px-1" type="button">
+                                <i class="fa-solid fa-list" style="color: #616161;"></i>
+                            </button>
+                            <!-- question -->
+                            <button class="btn px-1" type="button">
+                                <i class="fa-solid fa-question" style="color: #616161;"></i>
+                            </button>
+                            <!-- ellipsis -->
+                            <button class="btn px-1" type="button">
+                                <i class="fa-solid fa-ellipsis-vertical" style="color: #616161;"></i>
+                            </button>
+                            
                         </div>
+                        <!-- Campanella -->
+                        <div class="bell_header">
+                            <div class="dropdown">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell" style="color: #ffbb00;"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                                </div>
+
+                        </div>
+                        
                     </div>
                 </div>
                 <!-- FINE COL RIGHT -->
