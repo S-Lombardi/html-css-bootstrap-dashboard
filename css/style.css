@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+#header{
+    background-color: gray;
+    width: 100%;
+    /* min-height: 100px; */
+    position: fixed;
+    z-index: 3;
+}
+
+.header_left, .header_center, .header_right{
+    min-height: 70px;
+    width: 100%;
+    background-color: rgb(235, 188, 188);
+}
+/* FINE HEADER */
+
+/* SIDEBAR */
+
+#sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(56, 56, 75);
+    position: fixed;
+    top:0;
+    z-index:1;
+}
+
+.top_sidebare
+
+
+/* FINE SIDEBAR */
