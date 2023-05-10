@@ -21,9 +21,8 @@
 /* FINE HEADER */
 
 /* SIDEBAR */
-
 #sidebar{
-    width: 200px;
+    width: 150px;
     height: 100vh;
     background-color: rgb(56, 56, 75);
     position: fixed;
@@ -31,7 +30,55 @@
     z-index:1;
 }
 
-.top_sidebare
+.top_sidebar{
+    width:100%;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 100px;
 
+}
 
+.bottom_sidebar{
+    width:100%;
+    height: 200px;
+    background-color: rgb(0, 89, 255);
+}
+
+.h_100{
+    height: 100%
+}
 /* FINE SIDEBAR */
+
+/* MAIN */
+
+#main_content{
+    width: calc(100% - 150px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(210, 63, 26);
+}
+
+
+/* FINE MAIN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************** MEDIA QUERY ***********/
+/* TABLET */
+@media screen and (max-width:768px){
+
+    #sidebar{
+        width: 70px;
+    }
+}
