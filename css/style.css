@@ -8,7 +8,7 @@ body{
 }
 /* HEADER */
 #header{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(228, 228, 228);
     width: 100%;
     /* min-height: 100px; */
     position: fixed;
@@ -63,7 +63,7 @@ body{
     height: 100%
 }
 .link_sidebar:hover{
-    background-color: gray;
+    background-color: rgb(205, 205, 205);
     cursor: pointer;
 }
 .link_sidebar a{
@@ -152,7 +152,7 @@ body{
 
 /************** MEDIA QUERY ***********/
 /* TABLET */
-@media screen and (max-width:768px){
+@media screen and (max-width:990px){
 
     #sidebar{
         width: 70px;
