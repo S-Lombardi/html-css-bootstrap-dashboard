@@ -116,7 +116,6 @@ table .space{
 /*FAQ */
 .faq{
     width: 100%;
-    min-height: 200px;
     border: 1px dashed black;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -124,7 +123,6 @@ table .space{
 /* Todo */
 .todo{
     width: 100%;
-    min-height: 200px;
     border: 1px dashed black;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -152,7 +150,7 @@ table .space{
 
 /************** MEDIA QUERY ***********/
 /* TABLET */
-@media screen and (max-width:990px){
+@media screen and (max-width:767px){
 
     #sidebar{
         width: 70px;
