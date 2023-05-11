@@ -40,10 +40,12 @@ body{
 /* FINE HEADER */
 
 /* SIDEBAR */
-#sidebar{""""
+#sidebar{
     width: 150px;
     height: 100vh;
-    background-color: rgb(0, 28, 43);
+    background-color: #0e2338;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover ;
     position: fixed;
     top:0;
     z-index:1;
