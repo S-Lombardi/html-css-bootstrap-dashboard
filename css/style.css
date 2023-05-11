@@ -3,14 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-size: Open;
-}
+
 /* HEADER */
 #header{
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(237, 237, 237);
     width: 100%;
-    /* min-height: 100px; */
     position: fixed;
     z-index: 3;
     padding-top: 10px;
@@ -18,25 +15,21 @@ body{
 }
 .header_left, .header_center, .header_right{
     width: 100%;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     display: flex;
     align-items: center;
 }
-/* col left */
+/* Col left */
 .header_left .mobile_logo img{
     width: 40px;
 }
 
 /* Col Center */
-.input-group-text{
-    background-color: lightgray;
-}
-
 .search_style{
-    background-color: lightgray;
+    background-color:rgb(233, 233, 233);
     border-left: none;
 }
-/*Col right */
+
 /* FINE HEADER */
 
 /* SIDEBAR */
@@ -52,12 +45,12 @@ body{
 }
 .top_sidebar{
     width:100%;
-    border: 1px dashed white;
-    margin-top: 100px;
+    /* border: 1px dashed white; */
+    margin-top: 70px;
 }
 .bottom_sidebar{
     width:100%;
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
 }
 .h_100{
     height: 100%
@@ -75,7 +68,6 @@ body{
 /* MAIN */
 #main_content{
     width: calc(100% - 150px);
-    min-height: 500px;
     position: absolute;
     top: 0;
     right: 0;
@@ -86,7 +78,7 @@ body{
 .top_main_left,.top_main_center, .top_main_right{
     width: 100%;
     margin-bottom: 10px;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 /* Top-bar main  */
 .background_top_main{
@@ -103,10 +95,9 @@ body{
 /* Prossime classi */
 .prossime_classi{
     width: 100%;
-    min-height: 400px;
-    border: 1px dashed black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* border: 1px dashed black; */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .prossime_classi .class_avatar{
@@ -119,23 +110,20 @@ table .space{
 /*FAQ */
 .faq{
     width: 100%;
-    border: 1px dashed black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* border: 1px dashed black; */
 }
 /* Todo */
 .todo{
     width: 100%;
-    border: 1px dashed black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* border: 1px dashed black; */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* Utenti attivi */
 .utenti_attivi{
     width: 100%;
-    border: 1px dashed black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* border: 1px dashed black; */
+    margin-bottom: 20px;
 }
 
 
