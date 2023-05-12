@@ -68,6 +68,8 @@
 /* MAIN */
 #main_content{
     width: calc(100% - 150px);
+    height: 100vh;
+    overflow-y: auto;
     position: absolute;
     top: 0;
     right: 0;
